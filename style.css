@@ -1,0 +1,39 @@
+#container {
+  width: 50%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.players {
+  text-align: center;
+}
+
+.person {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.board-align {
+  width: 459px;
+
+  margin: 0 auto;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  margin-top: 15%;
+  grid-gap: 5px;
+}
+.grid {
+  border: 1px solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+.data {
+  margin: 50%;
+}
