@@ -2,6 +2,7 @@
   width: 50%;
   height: 80vh;
   margin: 0 auto;
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
@@ -27,13 +28,26 @@ h1 {
   grid-template-columns: 150px 150px 150px;
   margin-top: 15%;
   grid-gap: 5px;
+  background-color: black;
 }
-.grid {
-  border: 1px solid;
+.free {
   height: 150px;
   width: 150px;
-  border-radius: 5px;
+
+  background-color: white;
 }
 .data {
-  margin: 50%;
+  margin-top: 0%;
+  font-size: 80px;
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 140px;
+}
+.played {
+  text-align: center;
+  line-height: 150px;
+  font-size: 10vh;
+  background-color: white;
 }
